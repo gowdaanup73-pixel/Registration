@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/RegistrationApp/index.html" },
+    { "source": "/css/:path*", "destination": "/RegistrationApp/css/:path*" },
+    { "source": "/js/:path*", "destination": "/RegistrationApp/js/:path*" },
+    { "source": "/process.php", "destination": "/RegistrationApp/process.php" }
+  ]
+}
